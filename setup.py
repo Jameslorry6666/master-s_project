@@ -9,7 +9,7 @@ setup(
         "pandas>=1.3.0",
         "scikit-learn>=1.0.0",
     ],
-    author="Your Name",
-    author_email="your.email@example.com",
-    description="Description of your project",
+    author="James Ilori ",
+    author_email="oluwasegunjamesilori@gmail.com.com",
+    description="Predicting dementia from Magnetic Resonance Imaging dataset features using machine learning tools"
 )
