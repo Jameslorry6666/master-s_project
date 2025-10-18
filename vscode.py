@@ -16,6 +16,24 @@ st.info("This application builds machine learning models")
 
 with st.expander("Data"):
  st.write("**Raw data**")
-    
  df = pd.read_csv("df_drop.csv")
  df
+
+
+#data cleaning 
+with st.expander("Data"):
+  st.write("**Data_Cleaning**")
+  st.write(df.isnull().sum().sum())
+
+#data shape
+with st.expander("Data"):
+ st.write("**Data shape**")
+ st.write(df.shape)
+
+
+with st.expander("Data"):
+ st.write("**Data describe**")
+ st.write(df.describe())
+
+
+
